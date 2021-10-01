@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header-div
+{
+      background-color: rgb(42, 105, 221);
+    padding: 40px;
+    }
+.heading
+{
+    font-size: 20px;
+    color: white;
+    float: left;
+    margin-left: 100px;
+}
+.header-nav
+{
+    float: right;
+    margin-right: 60px;
+}
+.clearfix::before, .clearfix::after{
+        content:"";
+    display: table;
+}
+.clearfix::after
+{
+clear: both;
+}
+.header-nav a
+{
+    font-size: 18px;
+    color: white;
+    margin: 00px 15px;
+    text-decoration: none;
+}
+.header-2-div{
+    background-color:rgb(42, 105, 221);
+    text-align: center;
+    padding: 40px;
+}
+.heading-2
+{
+font-size: 70px;
+color: white;
+
+}
+.para-1
+{
+font-size: 15;
+color: white;
+margin-top: 25px;
+}
+.column-1-div
+{
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    margin: 00 auto;
+    }
+.column-1
+{
+    width: 30%;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 20px 20px;
+    padding: 30px 00px;
+}
+.column-heading
+{
+font-size: 23px;
+color:black;
+margin-bottom: 20px;
+}
+.column-para
+{
+font-size: 18px;
+color: black;
+margin: 20px 00;
+}
+.more
+{
+    background-color: rgb(42, 105, 221);
+    width: 70px;
+    height:30px;
+    padding: 10px;
+    text-align: center;
+   }
+.more a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    }
+    .new
+    {
+        font-size: 45px;
+    }
+    .photo
+    {
+        background-color: rgb(42, 105, 221);
+        padding-bottom: 50px;
+            }
+    .photo-1
+    {
+        width: 20%;
+        margin: 20px 22px;
+        height: auto;
+        background-color: rgb(42, 105, 221);
+        float: left;
+        text-align: center;
+        border: 1px solid rgb(160, 156, 156);
+    }
+    .photo-1 img
+    {
+height: 150px;
+width: 150px;
+border-radius: 50%;
+margin: 20px 00px;
+    }
+    .photo-heading
+    {
+        font-size: 23px;
+        color: white;
+        text-align: center;
+        margin: 20px 00px;
+    }
+    .photo-para
+    {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        margin: 13px 00px;
+    }
+    .inside-div
+    {
+        width: 1000px;
+        margin: 00 auto;
+        background-color: rgb(42, 105, 221);
+        text-align: center;
+    }
+    .nunc
+    {
+        background-color: white;
+        padding: 40px;
+    }
+    .nunc-heading
+    {
+        color:rgb(42, 105, 221) ;
+    }
+    .nunc-para
+    {
+        color: black;
+    }
+    .old
+    {
+    width: 48%;
+    margin: 20px 1%;
+    }
+    .last-head
+    {
+        margin-top: 50px;
+    }
+    .my-div
+    {
+        background-color: rgb(253, 253, 253);
+    }
+    .old img{
+        margin-bottom: 25px;
+    }
+    hr
+    {
+        width: 1180px;
+        margin: 00 auto;
+        margin-bottom: 20px;
+    }
+    .footer-div
+    {
+        background-color: rgb(255, 255, 255);
+        padding: 40px;
+        width: 1235px;
+        margin: 00 auto;
+    }
+    .last-para
+    {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        float: left;
+        margin-left: 30px;
+    }
+    .footer-nav
+    {
+        float: right;
+        margin-right: 15px;
+    }
+    .footer-nav a
+    {
+        color: rgb(0, 0, 0);
+        margin: 00 10px;
+        font-size: 20px;
+    }
